@@ -70,7 +70,7 @@
     <div class="container">
       <h2><center>About Me</center></h2>
       <p style="text-align: center; font-size: 1.25rem;">
-        I'm a second-semester graduate student in <strong>Artificial Intelligence</strong> at <strong>Worcester Polytechnic Institute (WPI), Worcester, MA.</strong>  
+        I'm a third-semester graduate student in <strong>Artificial Intelligence</strong> at <strong>Worcester Polytechnic Institute (WPI), Worcester, MA.</strong>  
         Passionate about machine learning, I aim to develop ethical, transparent, and human-centered AI systems.  
         My current interests include fairness in AI, adversarial robustness, and explainable models.
       </p>
@@ -121,7 +121,7 @@
         <div class = "school-info">
           <h3>Worcester Polytechnic Institute</h3>
           <p class="degree">M.S. in Artificial Intelligence</p>
-          <p class="date">Jan 2025 – Dec 2026 (Expected) | GPA: 4.0/4.0 (Spring 2025)</p>
+          <p class="date">Jan 2025 – Dec 2026 (Expected) | GPA: 4.0/4.0 (Cumulative)</p>
         </div>
         <div class = "location-info">
           <p class="location">Worcester, MA</p>
@@ -131,6 +131,11 @@
       <p class="degree coursework-heading"><strong>Courses of Spring 2025</strong>:</p>
       <ul class="experience-details">
         <li>Responsible Artificial Intelligence, Knowledge Discovery and Data Mining, Introduction to Artificial Intelligence</li>
+
+      </ul>
+      <p class="degree coursework-heading"><strong>Courses of Fall 2025</strong>:</p>
+      <ul class="experience-details">
+        <li>Machine Learning, Information Retrieval, Natural Language Processing</li>
       </ul>
     </div>
 
@@ -156,7 +161,15 @@
 
   <div id="experience" class="tab-content" style="display: none;">
     <div class="education-item">
-      <h3>AI Specialist - Global Lab, Innovation Studio, WPI</h3>
+      <h3>AI & Automation Intern - TÜV SÜD America</h3>
+      <p class="date">Dec 22,2025 - Present | Wakefield, MA</p>
+      <ul class="experience-details">
+        <li>Assist in the development and implementation of automation solutions using Microsoft Power Platform (Power Automate, Power BI, SharePoint, Co-Pilot Studio).</li>
+        <li>Participate in building secure AI LLM and NLP models using Python.</li>
+      </ul>
+    </div>
+    <div class="education-item">
+      <h3>AI Specialist (Part-time, On-campus) - Global Lab, Innovation Studio, WPI</h3>
       <p class="date">Sep 8,2025 - Present | Worcester, MA</p>
       <ul class="experience-details">
         <li>Serve as an AI consultant to students, providing guidance on AI tools, particularly open-source frameworks</li>
@@ -196,7 +209,7 @@
       <div class="project-card">
         <div class="project-details">
           <h3>Adversarial Attack via Knowledge Distillation</h3>
-          <p class="project-meta">Jan 2025 - May 2025 | Supervisor: <i>Prof. Raha Moraffah</i></p>
+          <p class="project-meta">Jan 2025 - May 2025 | Mentor: <i>Prof. Raha Moraffah</i></p>
           
           <div class="project-description">
             <div class="description-item">
@@ -225,8 +238,101 @@
           </div>
         </div>
       </div>
-
+      
       <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-details">
+          <h3>Microsoft Academic Graph Information Retrieval for Research Recommendation and Assistance</h3>
+          <p class="project-meta">Sep 2025 - Dec 2025 | Mentor: <i>Prof. Xiaozhong Liu </i></p>
+          
+          <div class="project-description">
+            <div class="description-item">
+              <div class="description-icon">▸</div>
+              <p>Proposed <strong>Attention-Based Subgraph Retriever:</strong> a GNN-as-retriever model that uses attention pruning to pass a refined subgraph to an LLM for advanced knowledge reasoning.</p>
+            </div>
+            <!-- <div class="description-item">
+              <div class="description-icon">▸</div>
+              <p>Achieved <strong>3.09 average MOS</strong> under low-resource conditions</p>
+            </div> -->
+          </div>
+          
+          <div class="project-tech">
+            <span>PyTorch</span>
+            <span>NLP</span>
+            <span>Graph Neural Network</span>
+          </div>
+          
+          <div class="project-links">
+            <a href="https://doi.org/10.3126/kjse.v8i1.69276" class="btn btn-small">View Paper</a>
+            <a href="https://colab.research.google.com/drive/18q96DzeupBuobGREHAf4EqRmMqr_iVYF?usp=sharing" class="btn btn-small btn-outline">Notebook</a>
+          </div>
+        </div>
+      </div>
+            <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-details">
+          <h3>R&D: News Retrieval and AI Detection</h3>
+          <p class="project-meta">Sep 2025 - Dec 2025 | Mentor: <i>Prof. Kyumin Lee </i></p>
+          
+          <div class="project-description">
+            <div class="description-item">
+              <div class="description-icon">▸</div>
+              <p>Given a user query, retrieves the top K news articles from using <strong>BM25</strong> and reranks them with <strong>SBERT</strong>  semantic similarity.</p>
+            </div>
+            <div class="description-item">
+              <div class="description-icon">▸</div>
+              <p>DistilBERT model identifies AI-generated text with up to<strong>97.5% accuracy</strong> in the original test set and <strong>89.77% accuracy</strong> in the OOD test set.</p>
+            </div>
+            <div class="description-item">
+                <div class="description-icon">▸</div>
+                <p>AI-generated content percentage is calculated as the number of paragraphs flagged as AI divided by the total number of paragraphs.</p>
+              </div>
+          </div>
+          
+          <div class="project-tech">
+            <span>IR</span>
+            <span>BM25</span>
+            <span>DistilBERT</span>
+          </div>
+          
+          <div class="project-links">
+            <a href="https://brian-jin.github.io/CS547_news_retrieval_ai_detection/" class="btn btn-small">View Demo</a>
+            <a href="https://github.com/rcwright03/News-Article-Retrieval-and-AI-Detection" class="btn btn-small btn-outline">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card">
+        <div class="project-details">
+          <h3>Biomedical Question Answering with Advanced RAG</h3>
+          <p class="project-meta">Sep 2025 - Dec 2025 | Course: CS 554 - Natural Language Processing | Instructor: <i>Prof. Xiaozhong Liu</i></p>
+          
+          <div class="project-description">
+            <div class="description-item">
+              <div class="description-icon">▸</div>
+              <p>Built a production-grade RAG system for complex biomedical questions using the <strong>BioASQ dataset</strong>, implementing hybrid retrieval with <strong>FAISS (dense)</strong> and <strong>BM25 (sparse)</strong> for comprehensive document coverage.</p>
+            </div>
+          
+            <div class="description-item">
+              <div class="description-icon">▸</div>
+              <p>Explored multiple RAG variants including <strong>Query Transformation</strong>, <strong>HyDE</strong>, and <strong>Semantic Chunking</strong>, analyzing precision-recall trade-offs for biomedical domain applications.</p>
+            </div>
+          </div>
+          
+          <div class="project-tech">
+            <span>NLP</span>
+            <span>RAG</span>
+          </div>
+          
+          <div class="project-links">
+            <!-- <a href="https://brian-jin.github.io/CS547_news_retrieval_ai_detection/" class="btn btn-small">View Demo</a> -->
+            <a href="https://colab.research.google.com/drive/1w3jiGRWOkaLFVfvGEBRETFUICF_hx6-T?usp=sharing" class="btn btn-small btn-outline">Notebook</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
       <div class="project-card">
         <div class="project-details">
           <h3>Nepali Text To Speech Synthesis</h3>
@@ -256,7 +362,7 @@
         </div>
       </div>
 
-      <!-- Project 3 -->
+      <!-- Project 6 -->
       <div class="project-card">
         <div class="project-details">
           <h3>Nepali Currency Recognition</h3>
